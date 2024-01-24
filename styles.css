@@ -298,6 +298,7 @@ span {
   gap: 1.5rem;
 }
 .section__title--skills {
+  margin-top: 3%;
   color: var(--clr-primary);
   padding-top: 1rem;
 }
@@ -349,10 +350,14 @@ span {
   color: var(--clr-primary);
   text-align: center;
 }
+.section__title-projects {
+  margin-top: 3%;
+}
 .section__subtitle--work {
   color: var(--clr-secondary);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
+ 
 }
 .portfolio {
   
@@ -400,6 +405,7 @@ span {
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: 3%;
 }
 .contact-me-body {
   color: var(--clr-light);
