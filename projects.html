@@ -41,21 +41,21 @@
         <ul
           id="primary-navigation"
           data-visible="'false"
-          role="tablist"
+          
           aria-label="primary navigation"
           class="primary-navigation flex"
         >
-          <li role="tab" tabindex="0" class="nav__item">
-            <a href="index.html" class="nav__link">Home</a>
+          <li class="nav__item">
+            <a href="index.html" class="nav__link" aria-label="link to the home page">Home</a>
           </li>
-          <li role="tab" tabindex="0" class="nav__item">
-            <a href="skills.html" class="nav__link">My Skills/ CV</a>
+          <li  class="nav__item">
+            <a href="skills.html" class="nav__link" aria-label="link to the skills page">My Skills/ CV</a>
           </li>
-          <li role="tab" tabindex="0" class="nav__item">
-            <a href="projects.html" class="nav__link">My Projects</a>
+          <li  class="nav__item">
+            <a href="projects.html" class="nav__link" aria-label="link to the projects page">My Projects</a>
           </li>
-          <li role="tab" tabindex="0" class="nav__item">
-            <a href="contact-me.html" class="nav__link">Contact Me</a>
+          <li class="nav__item">
+            <a href="contact-me.html" class="nav__link" aria-label="link to the contact me page">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -69,6 +69,7 @@
         <div class="individual-portfolio-item">
         <a href="https://www.linearttatoo.org/" class="portfolio__item">
           <img
+           width="640" height="360"
             src="./assets/images/tatto-artist-app.webp"
             alt="link to the tatoo artist website"
             class="portfolio__img"
@@ -79,6 +80,7 @@
        <div class="individual-portfolio-item">
         <a href="https://space-travel-is.netlify.app/" class="portfolio__item">
           <img
+          width="640" height="360"
             src="./assets/images/space.webp"
             alt="link to the space travel website"
             class="portfolio__img"
@@ -86,12 +88,49 @@
         </a>
         <a href="https://github.com/IngaSafranova/space-tourism-website-main" class="github-link">Link to Github</a>
       </div>
+      <div class="individual-portfolio-item">
+        <a href="https://landing-page-codedby-is.netlify.app/" class="portfolio__item">
+          <img
+           width="640" height="360"
+            src="./assets/images/landing-page.webp"
+            alt="link to the websites landing page"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="https://github.com/IngaSafranova/fem-manage-landing-page" class="github-link">Link to Github</a>
+       </div>
+        <div class="individual-portfolio-item">
+        <a href="https://fem-loopstudio-landing-page.netlify.app/" class="portfolio__item">
+          <img
+           width="640" height="360"
+            src="./assets/images/loopstudio-landing-page.webp"
+            alt="link to the loopstudio websites landing page"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="https://github.com/IngaSafranova/loopstudios-landing-page-main" class="github-link">Link to Github</a>
+       </div>
+       <div class="individual-portfolio-item">
+        <a
+          href="https://ingasafranova.github.io/faq-accordion-main/"
+          class="portfolio__item"
+        >
+          <img
+           width="640" height="360"
+            src="./assets/images/FAQs-accordion.webp"
+            alt="link to the FAQs accordion page"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="https://github.com/IngaSafranova/faq-accordion-main" class="github-link">Link to Github</a>
+      </div>
         <div class="individual-portfolio-item">
         <a
           href="https://fcc-calculator-reactjs.netlify.app/"
           class="portfolio__item"
         >
           <img
+           width="640" height="360"
             src="./assets/images/calculator-app.webp"
             alt="link to the calculator app"
             class="portfolio__img"
@@ -102,6 +141,7 @@
         <div class="individual-portfolio-item">
         <a href="https://weather-77l0.onrender.com/" class="portfolio__item">
           <img
+           width="640" height="360"
             src="./assets/images/Weather-app.webp"
             alt="link to the weather app"
             class="portfolio__img"
@@ -112,6 +152,7 @@
       <div class="individual-portfolio-item">
         <a href="https://ingasafranova.github.io/Roman-numerals/" class="portfolio__item">
           <img
+           width="640" height="360"
             src="./assets/images/Roman-numerals-converter.webp"
             alt="link to the Roman-numerals-converter app"
             class="portfolio__img"
@@ -122,6 +163,7 @@
       <div class="individual-portfolio-item">
         <a href="https://ingasafranova.github.io/Palindrome-Checker/" class="portfolio__item">
           <img
+           width="640" height="360"
             src="./assets/images/Palindrome-checker.webp"
             alt="link to the Palindrome-checker app"
             class="portfolio__img"
@@ -134,29 +176,30 @@
 
     <footer class="footer">
       <p>&copy created by IS</p>
-      <ul class="social-list" role="tablist" aria-label="footer navigation">
-        <li role="tab" tabindex="0" class="social-list__item">
-          <a href="mailto:sfrnv@yahoo.co.uk" class="social-list__link">
+      <ul class="social-list"  aria-label="footer navigation">
+        <li   class="social-list__item">
+          <a href="mailto:sfrnv@yahoo.co.uk" class="social-list__link" aria-label="reach me via email">
             <i
-              aria-label="reach me via email"
+              
               class="fa-solid fa-envelope fa-lg icon"
             ></i>
           </a>
         </li>
-        <li role="tab" tabindex="0" class="social-list__item">
+        <li  class="social-list__item">
           <a
             class="social-list__link"
             href="https://www.linkedin.com/in/inga-safranova/"
+            aria-label="visit my linkedin profile"
             ><i
-              aria-label="visit my linkedin profile"
+              
               class="fa-brands fa-linkedin-in fa-lg icon"
             ></i
           ></a>
         </li>
-        <li role="tab" tabindex="0" class="social-list__item">
-          <a class="social-list__link" href="https://github.com/IngaSafranova"
+        <li  class="social-list__item">
+          <a class="social-list__link" href="https://github.com/IngaSafranova" aria-label="visit my github profile"
             ><i
-              aria-label="visit my github profile"
+              
               class="fa-brands fa-github fa-lg icon"
             ></i
           ></a>

@@ -85,6 +85,7 @@ main {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .sr-only {
@@ -136,9 +137,12 @@ span {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
-  margin-block: 4em;
+  margin-block: 1.5rem;
+  margin-inline: .25rem;
 }
-
+.btn__cert {
+  padding-inline: 3rem;
+}
 /*When in focus*/
 
 .btn:hover {
@@ -212,11 +216,17 @@ span {
   text-decoration: none;
   color: var(--clr-primary);
   font-weight: var(--fw-bold);
-  padding-left: 2rem;
+  
   margin-right: 2rem;
+ 
+padding: 1rem;
+  
+
 }
-.primary-navigation :focus,
+
+.nav__link:focus,
 .primary-navigation :hover {
+  
   transform: scale(1.2);
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
@@ -342,6 +352,7 @@ span {
   text-decoration: none;
   color: var(--clr-primary);
   display: block;
+  padding-bottom: .5rem;
 }
 
 /*My Projects*/
